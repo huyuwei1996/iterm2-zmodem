@@ -13,6 +13,7 @@ brew install lrzsz
 Regular expression: rz waiting to receive.\*\*B0100
 Action: Run Silent Coprocess
 Parameters: /opt/homebrew/bin/iterm2-send-zmodem.sh
+Instant: checked
 ```
 ### 接收 rz
 
@@ -20,4 +21,5 @@ Parameters: /opt/homebrew/bin/iterm2-send-zmodem.sh
 Regular expression: \*\*B00000000000000
 Action: Run Silent Coprocess
 Parameters: /opt/homebrew/bin/iterm2-recv-zmodem.sh
+Instant: checked
 ```
